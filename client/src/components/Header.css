@@ -1,0 +1,88 @@
+.header{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+}
+
+.nav__elements{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 5
+}
+
+.header__menu__logo{
+    display: none;
+    color: white;
+}
+
+.header__logo{
+    height: 60px;
+    padding: 5px;
+    margin: auto 10px;
+    padding-top: 20px;
+    flex: 1;
+}
+
+.header__search{
+    display: flex;
+    height: 40px;
+    margin: auto;
+    flex: 4
+}
+
+.header__search__input{
+    height: 36px;
+    margin: auto 0;
+    padding: 8px 12px;
+    width: 100%;
+}
+.header__search__input:focus{
+    outline: none;
+}
+
+.header__search__logo{
+    background-color: orange;
+    margin: auto 0;
+}
+
+.header__nav{
+    display: flex;
+    color: white;
+    flex: 4;
+    justify-content: space-around;
+    height: 38px
+}
+.header__nav__option{
+    display: flex;
+    flex-direction: column;
+    margin: auto 5px;
+}
+
+.header__nav__option__lineOne{
+    font-size: 0.7rem;
+}
+
+.header__nav__option__lineTwo{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.header__nav__cart{
+    display: flex;
+    justify-content: initial;
+    margin: auto 0;
+    text-decoration: none;
+    color: white;
+    text-decoration-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

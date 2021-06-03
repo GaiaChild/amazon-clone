@@ -1,0 +1,26 @@
+.subtotal{
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.subtotal__image{
+    margin: -10px -50px 10px -50px;
+    z-index: -1
+}
+
+.subtotal__gift{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.subtotal__button{
+    width: 220px;
+    height: 30px;
+    margin: 20px auto;
+    background-color: #f0c14b;
+    border: solid 1px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111111;
+    border-radius: 2px;
+}

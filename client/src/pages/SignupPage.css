@@ -1,0 +1,87 @@
+.signup{
+    background-color: white;
+    height: 100vh;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #111111
+}
+
+.signup__logo{
+    margin: 20px auto;
+    margin-bottom: 10px;
+    object-fit: contain;
+    width: 100px;
+}
+
+.signup__container{
+    border: solid 1px #ddd;
+    padding: 20px;
+    width: 340px;
+    border-radius: 4px
+}
+
+.signup__container h2{
+    font-weight: 500;
+    margin-bottom: 20px
+}
+
+.signup__container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup__container h5{
+    margin-bottom: 5px;
+    padding-left: 5px
+}
+
+.signup__container h5 span{
+    display: inline-block;
+    color: red;
+    font-size: 0.7rem;
+    font-weight: 400;    
+}
+
+.signup__container input{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+    border: solid 1px #999;
+    border-radius: 3px;
+    padding: 5px 10px
+}
+
+.signup__container input:focus{
+    outline: 0px;
+    border: solid 1px #e77600;
+    box-shadow: 0 0 3px 2px rgba(228,121,17,.5)
+}
+
+.signup__container button{
+    width: 300px;
+    height: 30px;
+    margin: 20px auto;
+    margin-top: 0;
+    background-color: #f0c14b;
+    border: solid 1px;
+    border-color: #555;
+    color: #000;
+    font-weight: 500;
+    border-radius: 2px;
+    mask-image: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255,255,255,1),rgba(255,255,255,0.6))
+}
+
+.signup__container button:hover{
+    background-color: rgb(226, 182, 70)
+}
+
+.signup__container span{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.signup__container a{
+    color: #0066c0
+}
